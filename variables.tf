@@ -14,9 +14,3 @@ variable "keycloak_realm_id" {
   description = "Keycloak realm id"
   type        = string
 }
-
-variable "logs_retention" {
-  description = "CloudWatch logs retention period"
-  type        = string
-  default     = 365
-}
